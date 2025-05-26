@@ -38,6 +38,7 @@ from ..summation.interpolatedmodesum import InterpolatedModeSum
 from ..summation.fdinterp import FDInterpolatedModeSum
 
 from ..trajectory.ode import KerrEccEqFlux, PN5, SchwarzEccFlux
+from ..trajectory.ode.flux import SuperKludgeFlux #SuperKludge import
 
 from typing import Union, Optional, Generic
 
@@ -439,6 +440,130 @@ class FastKerrEccentricEquatorialFlux(
             inspiral_kwargs["func"] = KerrEccEqFlux
 
         # inspiral_kwargs = augment_ODE_func_name(inspiral_kwargs)
+
+        if sum_kwargs is None:
+            sum_kwargs = {}
+        mode_summation_module = InterpolatedModeSum
+        if "output_type" in sum_kwargs:
+            if sum_kwargs["output_type"] == "fd":
+                mode_summation_module = FDInterpolatedModeSum
+
+        if mode_selector_kwargs is None:
+            mode_selector_kwargs = {}
+        mode_selection_module = ModeSelector
+        if "mode_selection_type" in mode_selector_kwargs:
+            if mode_selector_kwargs["mode_selection_type"] == "neural":
+                mode_selection_module = NeuralModeSelector
+                if "mode_selector_location" not in mode_selector_kwargs:
+                    mode_selector_kwargs["mode_selector_location"] = os.path.join(
+                        dir_path,
+                        "./files/modeselector_files/KerrEccentricEquatorialFlux/",
+                    )
+                mode_selector_kwargs["keep_inds"] = np.array(
+                    [0, 1, 2, 3, 4, 6, 7, 8, 9]
+                )
+
+        KerrEccentricEquatorial.__init__(
+            self,
+            **{
+                key: value
+                for key, value in kwargs.items()
+                if key in ["lmax", "nmax", "ndim"]
+            },
+            force_backend=force_backend,
+        )
+        SphericalHarmonicWaveformBase.__init__(
+            self,
+            inspiral_module=EMRIInspiral,
+            amplitude_module=AmpInterpKerrEccEq,
+            sum_module=mode_summation_module,
+            mode_selector_module=mode_selection_module,
+            inspiral_kwargs=inspiral_kwargs,
+            amplitude_kwargs=amplitude_kwargs,
+            sum_kwargs=sum_kwargs,
+            Ylm_kwargs=Ylm_kwargs,
+            mode_selector_kwargs=mode_selector_kwargs,
+            **{
+                key: value for key, value in kwargs.items() if key in ["normalize_amps"]
+            },
+            force_backend=force_backend,
+        )
+
+    @classmethod
+    def supported_backends(cls):
+        return cls.GPU_RECOMMENDED()
+
+    @property
+    def allow_batching(self):
+        return False
+
+    def __call__(
+        self,
+        m1: float,
+        m2: float,
+        a: float,
+        p0: float,
+        e0: float,
+        xI: float,
+        theta: float,
+        phi: float,
+        *args: Optional[tuple],
+        **kwargs: Optional[dict],
+    ) -> np.ndarray:
+        """
+        Generate the waveform.
+
+        Args:
+            m1: Mass of larger black hole in solar masses.
+            m2: Mass of compact object in solar masses.
+            a: Dimensionless spin of massive black hole.
+            p0: Initial semilatus rectum of inspiral trajectory.
+            e0: Initial eccentricity of inspiral trajectory.
+            xI: Initial cosine of the inclination angle.
+            theta: Polar angle of observer.
+            phi: Azimuthal angle of observer.
+            *args: Placeholder for additional arguments.
+            **kwargs: Placeholder for additional keyword arguments.
+
+        Returns:
+            Complex array containing generated waveform.
+
+        """
+        return self._generate_waveform(
+            m1,
+            m2,
+            a,
+            p0,
+            e0,
+            xI,
+            theta,
+            phi,
+            *args,
+            **kwargs,
+        )
+    
+#waveform class
+class SuperKludgeWaveform(SphericalHarmonicWaveformBase, KerrEccentricEquatorial):
+
+    """ 
+    waveform class definition similar to pre-built classes in few.waveform.waveform.
+    Call using GenerateEMRIWaveform for detector frame.
+    """
+    
+    def __init__(
+        self,
+        /,
+        inspiral_kwargs: Optional[dict] = None,
+        amplitude_kwargs: Optional[dict] = None,
+        sum_kwargs: Optional[dict] = None,
+        Ylm_kwargs: Optional[dict] = None,
+        mode_selector_kwargs: Optional[dict] = None,
+        force_backend: BackendLike = None,
+        **kwargs: dict,
+        ):
+        if inspiral_kwargs is None:
+            inspiral_kwargs = {}
+        inspiral_kwargs["func"] = SuperKludgeFlux #SuperKludge Inspiral Class
 
         if sum_kwargs is None:
             sum_kwargs = {}

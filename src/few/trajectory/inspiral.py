@@ -224,6 +224,14 @@ class EMRIInspiral(TrajectoryBase):
         e0 = y2
         x0 = y3
 
+        ##################################
+        #######  SUPERKLUDGE MOD  ########
+        if type(self.func).__name__ == 'SuperKludgeFlux': #stackoverflow method
+            #print("SuperKludge!")
+            deltaM0 = 0.0
+            deltaChi10 = 0.0
+        ##################################
+
         if temp_kwargs["integrate_backwards"]:
             self.func.isvalid_pex(p=p0, e=e0, x=x0, a=a, p_buffer=[-1e-6,0])
         else:
@@ -269,6 +277,12 @@ class EMRIInspiral(TrajectoryBase):
             [y1, y2, y3, Phi_phi0 * (mu / M), Phi_theta0 * (mu / M), Phi_r0 * (mu / M)]
         )
 
+        ##################################
+        #######  SUPERKLUDGE MOD  ########
+        if type(self.func).__name__ == 'SuperKludgeFlux': #stackoverflow method
+            y0 = np.append(y0, np.array([deltaM0, deltaChi10]))
+        ##################################
+
         # this will return in coordinate time
         out = self.inspiral_generator.run_inspiral(m1, m2, a, y0, args_in, **temp_kwargs)
         if self.integrate_constants_of_motion and self.convert_to_pex:
@@ -281,7 +295,15 @@ class EMRIInspiral(TrajectoryBase):
             else:
                 out[:, 3] = pex[2]
 
-        t, p, e, x, Phi_phi, Phi_theta, Phi_r = out.T.copy()
+        t, p, e, x, Phi_phi, Phi_theta, Phi_r = out.T.copy()[:7] #SUPERKLUDGE MODIFICATION
+
+        ##################################
+        #######  SUPERKLUDGE MOD  ########
+        if type(self.func).__name__ == 'SuperKludgeFlux': #stackoverflow method
+            delta_M, delta_a = out.T.copy()[-2:]
+            return t, p, e, x, Phi_phi, Phi_theta, Phi_r, delta_M, delta_a
+        ##################################
+
         return t, p, e, x, Phi_phi, Phi_theta, Phi_r
 
     def get_rhs_ode(
@@ -366,7 +388,17 @@ class EMRIInspiral(TrajectoryBase):
         y0 = np.array([y1, y2, y3, Phi_phi0, Phi_theta0, Phi_r0])
 
         y0_and_args = np.concatenate(([y0], args))
-        out = self.inspiral_generator.func(y0_and_args)
+
+        ##################################
+        #######  SUPERKLUDGE MOD  ########
+        if type(self.func).__name__ == 'SuperKludgeFlux': #stackoverflow method
+            out = np.zeros(8)
+            out = self.inspiral_generator.func(y0_and_args,out=out)
+            
+        else:
+            out = self.inspiral_generator.func(y0_and_args)
+        ##################################
+        # out = self.inspiral_generator.func(y0_and_args)
         # out = self.inspiral_generator.func(np.r_[y0, *args])
 
         return out

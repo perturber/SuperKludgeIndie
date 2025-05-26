@@ -243,7 +243,7 @@ class SphericalHarmonicWaveformBase(
             T=T,
             dt=dt,
             **self.inspiral_kwargs,
-        )
+        )[:7] #SUPERKLUDGE MODIFICATION
         # makes sure p and e are generally within the model
         self.sanity_check_traj(a, p, e, xI)
      

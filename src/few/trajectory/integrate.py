@@ -434,7 +434,7 @@ class Integrate:
         self.trajectory_arr = np.zeros((self.buffer_length, self.nparams + 1))
         self._integrator_t_cache = np.zeros((self.buffer_length,))
         self.dopr_spline_output = np.zeros(
-            (self.buffer_length, 6, 8)
+            (self.buffer_length, self.nparams, 8) #SUPERKLUDGE MODIFICATION 6 -> self.nparams
         )  # 3 parameters + 3 phases, 8 coefficients
         self.traj_step = 0
 
@@ -526,7 +526,7 @@ class Integrate:
         """
         t_old = self.integrator_t_cache
 
-        result = np.zeros((t_new.size, 6))
+        result = np.zeros((t_new.size, self.nparams)) #SUPERKLUDGE MODIFICATION: 6 -> self.nparams
         t_in_mask = (t_new >= 0.0) & (t_new <= t_old.max())
 
         result[t_in_mask, :] = self.dopr.eval(
