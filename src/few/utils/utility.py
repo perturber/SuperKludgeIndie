@@ -415,7 +415,11 @@ def get_p_at_t(
     while bounds[0] < bounds[1]:
         try:
             traj_pars = [traj_args[0],traj_args[1],traj_args[index_of_a], bounds[0],traj_args[index_of_e],traj_args[index_of_x]]
-            t, p, e, xI, Phi_phi, Phi_theta, Phi_r = traj_module(*traj_pars, T=t_out*1.001)
+            
+            if len(traj_args) > 5:
+                traj_pars = traj_pars + traj_args[5:]
+            
+            t, p, e, xI, Phi_phi, Phi_theta, Phi_r = traj_module(*traj_pars, T=t_out*1.001)[:7]
             if t[-1] >= t_out*YRSID_SI:
                 raise ValueError("No solution found within the bounds of the interpolants.")
             break
