@@ -25,6 +25,10 @@ from multispline.spline import BicubicSpline, TricubicSpline
 from typing import Union, Optional
 import numpy as np
 from math import pow, log
+import warnings
+
+from .SuperKludge02_support import (y0_func, y1_func, y2_func, es0_func, es1_func, es2_func, dpdt1PA_func, dedt1PA_func, dpdt2PA_func, dedt2PA_func, dEdtH1PA, dLdtH1PA) #direct flux calculations
+from .SuperKludge02_support import (dpdE, dpdL, dedE, dedL, dEdChi1, dLdChi1, dEdm1, dLdm1) #Jacobian calculations
 
 PMAX = PMAX_REGIONB
 PISCO_MIN = get_separatrix(AMAX, 0, 1)
@@ -624,6 +628,186 @@ class KerrEccEqFlux(ODEBase):
 
         return [Edot, Ldot, 0.0, Omega_phi, Omega_theta, Omega_r]
 
+class SuperKludgeFlux(KerrEccEqFlux):
+    """
+    SuperKludgeFlux as a modification of the Kerr eccentric equatorial flux ODE.
+    Additional parameters (in this order):
+        chi2 (float) : dimensionless spin of the secondary.
+        evolve_1PA (bool) : whether to include 1PA corrections.
+        evolve_primary (bool) : whether to evolve MBH mass M and spin a/chi1.
+        evolve_2PA (bool) : whether to include 2PA corrections.
+    """
+
+    def add_fixed_parameters(self, m1: float, m2: float, a: float, additional_args = None):
+
+        #print("additional args: ", additional_args)
+
+        #this is where we initialize additional args like chi2, massratio, flags for 1PA, 2PA, and primary evolution.
+        #expected order: addiational_args = [chi2, 1PA_flag, evolve_primary_flag, 2PA_flag]
+        
+        self.massratio = m1 * m2 / (m1 + m2) ** 2
+        self.m1 = m1
+        
+        self.a = a
+        self.chi2 = additional_args[0] #secondary spin (dimless)
+
+        try:
+            self.evolve_1PA = bool(additional_args[1]) #whether to include 1PA corrections.
+        except IndexError:
+            self.evolve_1PA = True #defaults to True
+            
+        try:
+            self.evolve_primary = bool(additional_args[2]) #whether to evolve \delta~M, \delta~a. If False, just set delta_m1, delta_a = 0.0 throughout evolution.
+            if self.evolve_primary:
+                warnings.warn("Flux at horizon for primary evolution are PN-approximated and may be unsuitable.")
+        except IndexError:
+            self.evolve_primary = False #do not include primary evolution.
+
+        try:
+            self.evolve_2PA = bool(additional_args[3]) #whether to include 2PA corrections
+        except IndexError:
+            self.evolve_2PA = False #do not evolve 2PA terms
+        
+        if additional_args is None:
+            self.num_add_args = 0
+        else:
+            self.num_add_args = len(additional_args)
+
+    @property
+    def nparams(self):
+        """
+        An integer describing the number of parameters this ODE will integrate.
+        Defaults to 6 (three orbital elements, three orbital phases).
+        """
+        return 8 #[p, e, x, Phi_phi0, Phi_r, Phi_theta, delta_m1, delta_a]
+
+    def evaluate_rhs(
+        self, y: Union[list[float], np.ndarray]
+    ) -> list[Union[float, np.ndarray]]:
+
+        a_at_t = self.a + y[-1] #evolving spin
+        
+        if self.use_ELQ:
+            E, L, Q = y[:3]
+            p, e, x = ELQ_to_pex(a_at_t, E, L, Q)
+        else:
+            p, e, x = y[:3]
+
+        Omega_phi, Omega_theta, Omega_r = get_fundamental_frequencies(a_at_t, p, e, x)
+
+        Edot, Ldot = self.interpolate_flux_grids(p, e, x, a=a_at_t, pLSO=self.p_sep_cache)
+
+        return [Edot, Ldot, 0.0, Omega_phi, Omega_theta, Omega_r, 0.0, 0.0] #we will add delta_m1_dot, delta_a_dot in modify_rhs
+
+    def modify_rhs(
+        self, ydot: np.ndarray, y: np.ndarray, **kwargs
+    ) -> None:
+        """
+        This function allows the user to modify the right-hand side of the ODE after any required Jacobian transforms
+        have been applied. Note: modification is in place.
+        !!! m1 is the MBH mass in solar masses. TM is the total mass (m1 + m2) in solar masses.!!!
+        """
+
+        pdot, edot, _, Omega_phi, Omega_theta, Omega_r = ydot[:6]
+        p, e = y[:2]
+
+        delta_m1 = y[-2]
+        delta_a = y[-1]
+        delta_m1_dot = ydot[-2]
+        delta_a_dot = ydot[-2]
+        
+        M_at_t = self.m1 + delta_m1 #this is how delta_m1 is defined TODO: Confirm scaling!!!
+        a_at_t = self.a + delta_a #this is how delta_a is defined
+
+        #evolution of MBH mass and spin
+        if self.evolve_primary:
+            
+            #we will have Edot, Ldot at horizon as a function of p, e, x.
+            #these are PN approximations at 1PA.
+            EdotH = self.m1 * self.massratio**2 * dEdtH1PA(p, e, 1.0, a_at_t) #Energy flux at horizon, 1PA contribution, scaled by the MBH mass.
+            LdotH = self.m1 ** 2 * self.massratio**2 * dLdtH1PA(p, e, 1.0, a_at_t) #Angular momentum flux at horizon, 1PA contribution, scaled by the MBH mass ** 2.
+
+            #calculate delta_m1_dot, delta_a_dot as functions of EdotH, LdotH
+            S1dot = - LdotH #should be positive.
+            
+            #print(S1dot)
+            
+            delta_m1_dot = - EdotH #same as M_dot
+            delta_a_dot = - (2 * (a_at_t) * delta_m1_dot)/(M_at_t) + S1dot/(M_at_t)**2 #same as a_dot. S1dot should be positive.
+
+            #print(EdotH, LdotH)#delta_m1, delta_m1_dot, delta_a, delta_a_dot)
+                        
+            #update ydot
+            ydot[-2:] = [delta_m1_dot, delta_a_dot]
+            
+            #add contribution to pdot, edot due to delta_m1_dot, delta_a_dot
+            pdot += ((dpdE(a_at_t, p, e, 1.0)*dEdChi1(a_at_t, p, e, 1.0) + dpdL(a_at_t, p, e, 1.0)*dLdChi1(a_at_t, p, e, 1.0))*delta_a_dot +
+                    (dpdE(a_at_t, p, e, 1.0)*dEdm1(a_at_t, p, e, 1.0, M_at_t) + dpdL(a_at_t, p, e, 1.0)*dLdm1(a_at_t, p, e, 1.0, M_at_t))*delta_m1_dot)
+
+            edot += ((dedE(a_at_t, p, e, 1.0)*dEdChi1(a_at_t, p, e, 1.0) + dedL(a_at_t, p, e, 1.0)*dLdChi1(a_at_t, p, e, 1.0))*delta_a_dot +
+                    (dedE(a_at_t, p, e, 1.0)*dEdm1(a_at_t, p, e, 1.0, M_at_t) + dedL(a_at_t, p, e, 1.0)*dLdm1(a_at_t, p, e, 1.0, M_at_t))*delta_m1_dot)
+            
+        #calculating yPhi and Lambda for the PN-approximate PA contributions to pdot, edot
+        yPhi = Omega_phi**(1/3)
+        Lambda = 3. * (Omega_phi)**(2/3) * (Omega_phi/Omega_r - 1.)**(-1.)
+
+        #PN parameters in terms of yPhi and Lambda
+        yy0, y1, y2 = (y0_func(yPhi, Lambda), 
+                      y1_func(yPhi, Lambda, a_at_t, self.chi2), 
+                      y2_func(yPhi, Lambda, a_at_t, self.chi2))
+
+        es0, es1, es2 = (es0_func(yPhi, Lambda, a_at_t),
+                         es1_func(yPhi, Lambda, a_at_t, self.chi2),
+                         es2_func(yPhi, Lambda, a_at_t, self.chi2))     
+
+        if self.evolve_1PA:
+
+            #adding 1PA corrections:
+            pdot1PA = self.massratio**2 * dpdt1PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
+            edot1PA = self.massratio**2 * dedt1PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
+    
+            pdot = pdot + pdot1PA
+            edot = edot + edot1PA
+
+        if self.evolve_2PA:
+
+            #adding 2PA corrections:
+            pdot2PA = self.massratio**3 * dpdt2PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
+            edot2PA = self.massratio**3 * dedt2PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
+
+            pdot = pdot + pdot2PA
+            edot = edot + edot2PA
+            
+        ydot[0] = pdot 
+        ydot[1] = edot
+
+    def __call__(
+        self,
+        y: Union[list, np.ndarray],
+        out: Optional[np.ndarray] = None,
+        **kwargs: Optional[dict],
+    ) -> np.ndarray:
+        in_bounds = self.cache_values_and_check_bounds(y)
+
+        if out is None:
+            out = np.zeros(8) #8 params in SuperKludge (3 orbital params, 3 phases, 2 evolution of primary)
+            
+        if in_bounds:
+            out[:] = self.evaluate_rhs(y, **kwargs)
+        else:
+            out *= np.nan
+
+        self.modify_rhs_before_Jacobian(out, y, **kwargs)
+
+        if self.apply_Jacobian_bool:  # implicitly this means that y contains (p, e, x)
+            out[:2] = ELdot_to_PEdot_Jacobian(self.a + y[-1], *y[:3], *out[:2])
+
+        self.modify_rhs(out, y, **kwargs)
+
+        if self.integrate_backwards:
+            out *= -1.
+
+        return out
 
 @njit
 def _pdot_PN(p, e, risco, p_sep):
