@@ -666,7 +666,9 @@ class SuperKludgeFlux(KerrEccEqFlux):
         try:
             self.evolve_2PA = bool(additional_args[3]) #whether to include 2PA corrections
         except IndexError:
-            self.evolve_2PA = False #do not evolve 2PA terms
+            self.evolve_2PA = True #defaults to True
+
+        #print("evolve_1PA: ", self.evolve_1PA, "evolve_primary: ", self.evolve_primary, "evolve_2PA: ", self.evolve_2PA)
         
         if additional_args is None:
             self.num_add_args = 0
@@ -763,19 +765,24 @@ class SuperKludgeFlux(KerrEccEqFlux):
         if self.evolve_1PA:
 
             #adding 1PA corrections:
-            pdot1PA = self.massratio**2 * dpdt1PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
-            edot1PA = self.massratio**2 * dedt1PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
-    
+            pdot1PA = self.massratio * dpdt1PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
             pdot = pdot + pdot1PA
+            if e < 1e-2:
+                raise TrajectoryOffGridException
+            else:
+                edot1PA = self.massratio * dedt1PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
             edot = edot + edot1PA
 
         if self.evolve_2PA:
 
             #adding 2PA corrections:
-            pdot2PA = self.massratio**3 * dpdt2PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
-            edot2PA = self.massratio**3 * dedt2PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
-
+            pdot2PA = self.massratio**2 * dpdt2PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
             pdot = pdot + pdot2PA
+            
+            if e < 1e-2:
+                raise TrajectoryOffGridException
+            else:
+                edot2PA = self.massratio**2 * dedt2PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
             edot = edot + edot2PA
             
         ydot[0] = pdot 
