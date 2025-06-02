@@ -713,6 +713,9 @@ class SuperKludgeFlux(KerrEccEqFlux):
         pdot, edot, _, Omega_phi, Omega_theta, Omega_r = ydot[:6]
         p, e = y[:2]
 
+        if e < 1e-2: #invalid regime for the SuperKludge
+            raise TrajectoryOffGridException
+
         delta_m1 = y[-2]
         delta_a = y[-1]
         delta_m1_dot = ydot[-2]
@@ -767,10 +770,8 @@ class SuperKludgeFlux(KerrEccEqFlux):
             #adding 1PA corrections:
             pdot1PA = self.massratio * dpdt1PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
             pdot = pdot + pdot1PA
-            if e < 1e-2:
-                raise TrajectoryOffGridException
-            else:
-                edot1PA = self.massratio * dedt1PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
+
+            edot1PA = self.massratio * dedt1PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
             edot = edot + edot1PA
 
         if self.evolve_2PA:
@@ -779,10 +780,7 @@ class SuperKludgeFlux(KerrEccEqFlux):
             pdot2PA = self.massratio**2 * dpdt2PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
             pdot = pdot + pdot2PA
             
-            if e < 1e-2:
-                raise TrajectoryOffGridException
-            else:
-                edot2PA = self.massratio**2 * dedt2PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
+            edot2PA = self.massratio**2 * dedt2PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
             edot = edot + edot2PA
             
         ydot[0] = pdot 
