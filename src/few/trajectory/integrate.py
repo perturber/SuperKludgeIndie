@@ -660,8 +660,15 @@ class Integrate:
             else:
                 p_sep = 6 + 2 * e
 
-            if p - p_sep < self.separatrix_buffer_dist:
-                return True
+            ### SUPERKLUDGE MOD STARTS HERE ###
+            if len(y) == 8:
+                #SUPERKLUDGE ! 
+                if (p - p_sep < self.separatrix_buffer_dist) or (e < 0.005): #SUPERKLUDGE MOD: stop if e < 0.005
+                    return True
+            else:
+                if (p - p_sep < self.separatrix_buffer_dist):
+                    return True
+            ### SUPERKLUDGE MOD ENDS ###
 
     def inner_func_forward(self, t_step):
         """
@@ -715,11 +722,11 @@ class Integrate:
         if (
             t < self.tmax_dimensionless
         ):  # don't step to the separatrix if we already hit the time window
-            self._finishing_function_stop(t)
+            self._finishing_function_stop(t, y) #SUPERKLUDGE MOD
         else:
             self._finishing_function_at_tmax()
 
-    def _finishing_function_stop(self, t: float):
+    def _finishing_function_stop(self, t: float, y: np.ndarray): #SUPERKLUDGE MOD
         """
         If the integrator stops due to the separatrix stopping condition, place a point at the inner
         boundary and finish integration.
@@ -748,35 +755,48 @@ class Integrate:
                 # exit the finishing function
                 return
 
-        # the trajectory crosses the boundary before t=tmax. Root-find to get the crossing time.
-        result = brentq(
-            distance_func,
-            t * self.Msec,  # lower bound: the current point
-            self.integrator_t_cache[
-                -1
-            ],  # upper bound: the knot that passed the boundary
-            maxiter=MAX_ITER,
-            xtol=INNER_THRESHOLD,
-            rtol=1e-13,
-            full_output=True,
-        )
+        ###########################################
+        ###### SUPERKLUDGE MOD STARTS #############
 
-        if result[1].converged:
-            t_out = result[0]
-            y_out = self.eval_integrator_spline(
-                np.array(
-                    [
-                        t_out,
-                    ]
-                )
-            )[0]
-
-            self.traj_step -= 1  # revert the step counter to place the last (t, y) in the right place (spline info not overwritten)
-            self.save_point(t_out, y_out, spline_output=None)
-        else:
-            raise RuntimeError(
-                "Separatrix root-finding operation did not converge within MAX_ITER."
+        try:    
+            # the trajectory crosses the boundary before t=tmax. Root-find to get the crossing time.
+            result = brentq(
+                distance_func,
+                t * self.Msec,  # lower bound: the current point
+                self.integrator_t_cache[
+                    -1
+                ],  # upper bound: the knot that passed the boundary
+                maxiter=MAX_ITER,
+                xtol=INNER_THRESHOLD,
+                rtol=1e-13,
+                full_output=True,
             )
+
+            if result[1].converged:
+                t_out = result[0]
+                y_out = self.eval_integrator_spline(
+                    np.array(
+                        [
+                            t_out,
+                        ]
+                    )
+                )[0]
+
+                self.traj_step -= 1  # revert the step counter to place the last (t, y) in the right place (spline info not overwritten)
+                self.save_point(t_out, y_out, spline_output=None)
+            else:
+                raise RuntimeError(
+                    "Separatrix root-finding operation did not converge within MAX_ITER."
+                )
+        except ValueError:
+        #    print("Exception occured while placing a point at the separatrix: ", e)
+            p, e, x = self.get_pex(y)
+            if e > 0.005: 
+                #simply end the inspiral
+                self.traj_step -= 1
+
+        ###### SUPERKLUDGE MOD ENDS #############
+        ###########################################
 
     def _finishing_function_at_tmax(self):
         """

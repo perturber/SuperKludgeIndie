@@ -713,8 +713,8 @@ class SuperKludgeFlux(KerrEccEqFlux):
         pdot, edot, _, Omega_phi, Omega_theta, Omega_r = ydot[:6]
         p, e = y[:2]
 
-        if e < 1e-2: #invalid regime for the SuperKludge
-            raise TrajectoryOffGridException
+        #if e < self.massratio: #invalid regime for the SuperKludge
+        #    raise TrajectoryOffGridException
 
         delta_m1 = y[-2]
         delta_a = y[-1]
@@ -729,8 +729,8 @@ class SuperKludgeFlux(KerrEccEqFlux):
             
             #we will have Edot, Ldot at horizon as a function of p, e, x.
             #these are PN approximations at 1PA.
-            EdotH = self.m1 * self.massratio**2 * dEdtH1PA(p, e, 1.0, a_at_t) #Energy flux at horizon, 1PA contribution, scaled by the MBH mass.
-            LdotH = self.m1 ** 2 * self.massratio**2 * dLdtH1PA(p, e, 1.0, a_at_t) #Angular momentum flux at horizon, 1PA contribution, scaled by the MBH mass ** 2.
+            EdotH = self.m1 * self.massratio * dEdtH1PA(p, e, 1.0, a_at_t) #Energy flux at horizon, 1PA contribution, scaled by the MBH mass.
+            LdotH = self.m1 ** 2 * self.massratio * dLdtH1PA(p, e, 1.0, a_at_t) #Angular momentum flux at horizon, 1PA contribution, scaled by the MBH mass ** 2.
 
             #calculate delta_m1_dot, delta_a_dot as functions of EdotH, LdotH
             S1dot = - LdotH #should be positive.
