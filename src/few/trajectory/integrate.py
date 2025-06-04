@@ -661,9 +661,9 @@ class Integrate:
                 p_sep = 6 + 2 * e
 
             ### SUPERKLUDGE MOD STARTS HERE ###
-            if len(y) == 8:
+            if type(self.func).__name__ == 'SuperKludgeFlux': #stackoverflow method:
                 #SUPERKLUDGE ! 
-                if (p - p_sep < self.separatrix_buffer_dist) or (e < 0.005): #SUPERKLUDGE MOD: stop if e < 0.005
+                if (p - p_sep < self.separatrix_buffer_dist) or (e < 0.005): #SUPERKLUDGE MOD: stop if e < 0.005 
                     return True
             else:
                 if (p - p_sep < self.separatrix_buffer_dist):
