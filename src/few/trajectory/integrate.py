@@ -663,7 +663,7 @@ class Integrate:
             ### SUPERKLUDGE MOD STARTS HERE ###
             if type(self.func).__name__ == 'SuperKludgeFlux': #stackoverflow method:
                 #SUPERKLUDGE ! 
-                if (p - p_sep < self.separatrix_buffer_dist) or (e < 0.005): #SUPERKLUDGE MOD: stop if e < 0.005 
+                if (p - p_sep < self.separatrix_buffer_dist) or (self.massratio/e > 0.1): #SUPERKLUDGE MOD: conservative stopping criteria based on e: 1PA and 2PA terms have a singularity at e = 0.0. 
                     return True
             else:
                 if (p - p_sep < self.separatrix_buffer_dist):
