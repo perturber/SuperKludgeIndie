@@ -92,153 +92,47 @@ def dLdtH1PA(p, e, x, Chi1):
 
 
 @njit
-def y0_func(yPhi, Lambda):
-    chi1 = 1  # Assuming chi1 is a parameter; adjust as needed
-    numerator = 3 * (8 * yPhi**2 * chi1 + np.sqrt(
-        9 * yPhi**2 * (4 + 17 * yPhi**2) * (35 * yPhi**2 + 4 * Lambda**2)
-        - 2 * yPhi**4 * (60 + 391 * yPhi**2) * chi1**2
-    ))
-    denominator = -36 * Lambda**2 + yPhi**2 * (-315 + 46 * chi1**2)
-    return -numerator / denominator
+def y0_func(yPhi, Lambda, Chi1):
+    lamb = Lambda
+    sqrt = np.sqrt
+
+    return (-24*Chi1*yPhi**2 - 3*sqrt(-2*Chi1**2*yPhi**4*(391*yPhi**2 + 60) + 9*yPhi**2*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4)))/(-36*lamb + yPhi**2*(46*Chi1**2 - 315))
 
 @njit
 def y1_func(yPhi, Lambda, Chi1, Chi2):
-    sqrt_term = np.sqrt(
-        9 * yPhi**2 * (4 + 17 * yPhi**2) * (35 * yPhi**2 + 4 * Lambda**2)
-        - 2 * yPhi**4 * (60 + 391 * yPhi**2) * Chi1**2
-    )
-    denominator = (-36 * Lambda**2 + yPhi**2 * (-315 + 46 * Chi1**2))
+    lamb = Lambda
+    sqrt = np.sqrt
     
-    term1 = (
-        6 * yPhi**2 * (8 * yPhi**2 * Chi1 + sqrt_term) * (-81 + 62 * Chi1**2 - 30 * Chi1 * Chi2)
-    ) / (denominator**2)
-    
-    term2 = (
-        2 * yPhi**2 * (15 * Chi1 - 9 * Chi2 + (
-            sqrt_term * (
-                yPhi**2 * (-4113 + 1880 * Chi1**2 - 765 * Chi1 * Chi2)
-                - 18 * (27 + 13 * Lambda**2 - 14 * Chi1**2 + 6 * Chi1 * Chi2)
-            )
-        ) / (-9 * (4 + 17 * yPhi**2) * (35 * yPhi**2 + 4 * Lambda**2)
-            + 2 * yPhi**2 * (60 + 391 * yPhi**2) * Chi1**2)
-        )
-    ) / denominator
-    
-    return -term1 + term2
+    return 2*yPhi**2*(15*Chi1 - 9*Chi2 + sqrt(-2*Chi1**2*yPhi**4*(391*yPhi**2 + 60) + 9*yPhi**2*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4))*(252*Chi1**2 - 108*Chi1*Chi2 - 234*lamb + yPhi**2*(1880*Chi1**2 - 765*Chi1*Chi2 - 4113) - 486)/(2*Chi1**2*yPhi**2*(391*yPhi**2 + 60) - 9*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4)))/(-36*lamb + yPhi**2*(46*Chi1**2 - 315)) - 6*yPhi**2*(8*Chi1*yPhi**2 + sqrt(-2*Chi1**2*yPhi**4*(391*yPhi**2 + 60) + 9*yPhi**2*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4)))*(62*Chi1**2 - 30*Chi1*Chi2 - 81)/(-36*lamb + yPhi**2*(46*Chi1**2 - 315))**2
+
 
 @njit
 def y2_func(yPhi, Lambda, Chi1, Chi2):
-    sqrt_term = np.sqrt(
-        9 * yPhi**2 * (4 + 17 * yPhi**2) * (35 * yPhi**2 + 4 * Lambda**2)
-        - 2 * yPhi**4 * (60 + 391 * yPhi**2) * Chi1**2
-    )
-    denominator = (-36 * Lambda**2 + yPhi**2 * (-315 + 46 * Chi1**2))
-    denominator_cubed = denominator**3
-    denominator_squared = denominator**2
+    lamb = Lambda
+    sqrt = np.sqrt
     
-    term1 = (
-        6 * yPhi**2 * (8 * yPhi**2 * Chi1 + sqrt_term) * (
-            -36 * Lambda**2 * (5 * Chi1 - 9 * Chi2) * (Chi1 + Chi2)
-            + yPhi**2 * (13122 - 21663 * Chi1**2 + 7918 * Chi1**4
-            + 4 * Chi1 * (2745 - 1906 * Chi1**2) * Chi2 + 63 * (45 + 22 * Chi1**2) * Chi2**2)
-        )
-    ) / denominator_cubed
-    
-    term2 = (
-        2 * yPhi**4 * (162 - 124 * Chi1**2 + 60 * Chi1 * Chi2) * (
-            15 * Chi1 - 9 * Chi2 + (
-                sqrt_term * (
-                    yPhi**2 * (-4113 + 1880 * Chi1**2 - 765 * Chi1 * Chi2)
-                    - 18 * (27 + 13 * Lambda**2 - 14 * Chi1**2 + 6 * Chi1 * Chi2)
-                )
-            ) / (-9 * (4 + 17 * yPhi**2) * (35 * yPhi**2 + 4 * Lambda**2)
-                + 2 * yPhi**2 * (60 + 391 * yPhi**2) * Chi1**2)
-        )
-    ) / denominator_squared
-    
-    term3 = (
-        1 / denominator * (
-            24 * yPhi**2 * (Chi1 - Chi2) - (
-                36 * sqrt_term * (
-                    -24 * (yPhi**6 * (-4113 + 1880 * Chi1**2 - 765 * Chi1 * Chi2)
-                    - 18 * yPhi**4 * (27 + 13 * Lambda**2 - 14 * Chi1**2 + 6 * Chi1 * Chi2))**2
-                    - (324 * yPhi**2 * (4 + 17 * yPhi**2) * (35 * yPhi**2 + 4 * Lambda**2)
-                    - 72 * yPhi**4 * (60 + 391 * yPhi**2) * Chi1**2)
-                    * (-18 * yPhi**4 * (Chi1 - 3 * Chi2) * (Chi1 + Chi2)
-                    + yPhi**6 * (-2106 + 1357 * Chi1**2 - 576 * Chi1 * Chi2 + 459 * Chi2**2))
-                )
-            ) / (324 * yPhi**2 * (4 + 17 * yPhi**2) * (35 * yPhi**2 + 4 * Lambda**2)
-                - 72 * yPhi**4 * (60 + 391 * yPhi**2) * Chi1**2)**2
-        )
-    )
-    
-    return term1 - term2 + term3
+    return -2*yPhi**4*(15*Chi1 - 9*Chi2 + sqrt(-2*Chi1**2*yPhi**4*(391*yPhi**2 + 60) + 9*yPhi**2*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4))*(252*Chi1**2 - 108*Chi1*Chi2 - 234*lamb + yPhi**2*(1880*Chi1**2 - 765*Chi1*Chi2 - 4113) - 486)/(2*Chi1**2*yPhi**2*(391*yPhi**2 + 60) - 9*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4)))*(-124*Chi1**2 + 60*Chi1*Chi2 + 162)/(-36*lamb + yPhi**2*(46*Chi1**2 - 315))**2 + 6*yPhi**2*(8*Chi1*yPhi**2 + sqrt(-2*Chi1**2*yPhi**4*(391*yPhi**2 + 60) + 9*yPhi**2*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4)))*(-36*lamb*(Chi1 + Chi2)*(5*Chi1 - 9*Chi2) + yPhi**2*(7918*Chi1**4 - 21663*Chi1**2 + 4*Chi1*Chi2*(2745 - 1906*Chi1**2) + 63*Chi2**2*(22*Chi1**2 + 45) + 13122))/(36*lamb + yPhi**2*(315 - 46*Chi1**2))**3 + (24*yPhi**2*(Chi1 - Chi2) - 36*sqrt(-2*Chi1**2*yPhi**4*(391*yPhi**2 + 60) + 9*yPhi**2*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4))*(-24*(yPhi**6*(1880*Chi1**2 - 765*Chi1*Chi2 - 4113) - 18*yPhi**4*(-14*Chi1**2 + 6*Chi1*Chi2 + 13*lamb + 27))**2 - (yPhi**6*(1357*Chi1**2 - 576*Chi1*Chi2 + 459*Chi2**2 - 2106) - 18*yPhi**4*(Chi1 - 3*Chi2)*(Chi1 + Chi2))*(-72*Chi1**2*yPhi**4*(391*yPhi**2 + 60) + 324*yPhi**2*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4)))/(-72*Chi1**2*yPhi**4*(391*yPhi**2 + 60) + 324*yPhi**2*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4))**2)/(-36*lamb + yPhi**2*(46*Chi1**2 - 315))
     
 @njit
 def es0_func(yPhi, Lambda, Chi1):
-    term1 = 72 - 72 * Lambda**2
-    term2 = -2 * yPhi**2 * (9 + 153 * Lambda**2 - 14 * Chi1**2)
-    term3 = 17 * yPhi**4 * (-81 + 23 * Chi1**2)
-    term4 = 8 * Chi1 * np.sqrt(
-        9 * yPhi**2 * (4 + 17 * yPhi**2) * (35 * yPhi**2 + 4 * Lambda**2)
-        - 2 * yPhi**4 * (60 + 391 * yPhi**2) * Chi1**2
-    )
-    numerator = 2 * (term1 + term2 + term3 + term4)
-    denominator = 9 * (4 + 17 * yPhi**2) ** 2
-    return numerator / denominator
+    lamb = Lambda
+    sqrt = np.sqrt
+
+    return (16*Chi1*sqrt(-2*Chi1**2*yPhi**4*(391*yPhi**2 + 60) + 9*yPhi**2*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4)) - 144*lamb + 34*yPhi**4*(23*Chi1**2 - 81) - 4*yPhi**2*(-14*Chi1**2 + 153*lamb + 9) + 144)/(9*(17*yPhi**2 + 4)**2)
 
 @njit
 def es1_func(yPhi, Lambda, Chi1, Chi2):
-    term1 = 72 - 72 * Lambda**2
-    term2 = -2 * yPhi**2 * (9 + 153 * Lambda**2 - 14 * Chi1**2)
-    term3 = 17 * yPhi**4 * (-81 + 23 * Chi1**2)
-    term4 = 8 * Chi1 * np.sqrt(
-        9 * yPhi**2 * (4 + 17 * yPhi**2) * (35 * yPhi**2 + 4 * Lambda**2)
-        - 2 * yPhi**4 * (60 + 391 * yPhi**2) * Chi1**2
-    )
-    numerator1 = 104 * yPhi**2 * (term1 + term2 + term3 + term4)
-    denominator1 = 9 * (4 + 17 * yPhi**2) ** 3
-    
-    term5 = 24 * yPhi**2 * (3 + 39 * Lambda**2 - 22 * Chi1**2 + 6 * Chi1 * Chi2)
-    term6 = 4 * yPhi**4 * (2124 - 1880 * Chi1**2 + 765 * Chi1 * Chi2)
-    sqrt_term = np.sqrt(
-        9 * yPhi**2 * (4 + 17 * yPhi**2) * (35 * yPhi**2 + 4 * Lambda**2)
-        - 2 * yPhi**4 * (60 + 391 * yPhi**2) * Chi1**2
-    )
-    term7 = 4 * sqrt_term * (
-        432 * Lambda**2 * (5 * Chi1 - 3 * Chi2)
-        + 36 * yPhi**2 * (
-            Chi1 * (633 + 307 * Lambda**2 - 106 * Chi1**2)
-            - 9 * (35 + 17 * Lambda**2 - 6 * Chi1**2) * Chi2
-        )
-        + yPhi**4 * (-48195 * Chi2 + Chi1 * (113229 - 26770 * Chi1**2 + 13158 * Chi1 * Chi2))
-    )
-    denominator2 = -9 * (4 + 17 * yPhi**2) * (35 * yPhi**2 + 4 * Lambda**2) + 2 * yPhi**2 * (60 + 391 * yPhi**2) * Chi1**2
-    numerator2 = term5 + term6 + term7 / denominator2
-    denominator3 = (12 + 51 * yPhi**2) ** 2
-    
-    return (numerator1 / denominator1 + numerator2 / denominator3) / 3
+    lamb = Lambda
+    sqrt = np.sqrt
+
+    return 104*yPhi**2*(8*Chi1*sqrt(-2*Chi1**2*yPhi**4*(391*yPhi**2 + 60) + 9*yPhi**2*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4)) - 72*lamb + 17*yPhi**4*(23*Chi1**2 - 81) - 2*yPhi**2*(-14*Chi1**2 + 153*lamb + 9) + 72)/(27*(17*yPhi**2 + 4)**3) + (4*yPhi**4*(-1880*Chi1**2 + 765*Chi1*Chi2 + 2124) + 24*yPhi**2*(-22*Chi1**2 + 6*Chi1*Chi2 + 39*lamb + 3) + 4*sqrt(-2*Chi1**2*yPhi**4*(391*yPhi**2 + 60) + 9*yPhi**2*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4))*(432*lamb*(5*Chi1 - 3*Chi2) + yPhi**4*(Chi1*(-26770*Chi1**2 + 13158*Chi1*Chi2 + 113229) - 48195*Chi2) + 36*yPhi**2*(Chi1*(-106*Chi1**2 + 307*lamb + 633) - 9*Chi2*(-6*Chi1**2 + 17*lamb + 35)))/(2*Chi1**2*yPhi**2*(391*yPhi**2 + 60) - 9*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4)))/(3*(51*yPhi**2 + 12)**2)
 
 @njit
 def es2_func(yPhi, Lambda, Chi1, Chi2):
-    term1_num = 1352 * yPhi**4 * (72 - 72 * Lambda**2 - 2 * yPhi**2 * (9 + 153 * Lambda**2 - 14 * Chi1**2) + 17 * yPhi**4 * (-81 + 23 * Chi1**2) + 8 * Chi1 * np.sqrt(9 * yPhi**2 * (4 + 17 * yPhi**2) * (35 * yPhi**2 + 4 * Lambda**2) - 2 * yPhi**4 * (60 + 391 * yPhi**2) * Chi1**2))
-    term1_den = 9 * (4 + 17 * yPhi**2)**4
-    term1 = term1_num / term1_den / 3
-    
-    sqrt_term = np.sqrt(9 * yPhi**2 * (4 + 17 * yPhi**2) * (35 * yPhi**2 + 4 * Lambda**2) - 2 * yPhi**4 * (60 + 391 * yPhi**2) * Chi1**2)
-    
-    term2_num = 52 * yPhi**2 * (24 * yPhi**2 * (3 + 39 * Lambda**2 - 22 * Chi1**2 + 6 * Chi1 * Chi2) + 4 * yPhi**4 * (2124 - 1880 * Chi1**2 + 765 * Chi1 * Chi2) + (4 * sqrt_term * (432 * Lambda**2 * (5 * Chi1 - 3 * Chi2) + 36 * yPhi**2 * (Chi1 * (633 + 307 * Lambda**2 - 106 * Chi1**2) - 9 * (35 + 17 * Lambda**2 - 6 * Chi1**2) * Chi2) + yPhi**4 * (-48195 * Chi2 + Chi1 * (113229 - 26770 * Chi1**2 + 13158 * Chi1 * Chi2)))))
-    term2_den = -9 * (4 + 17 * yPhi**2) * (35 * yPhi**2 + 4 * Lambda**2) + 2 * yPhi**2 * (60 + 391 * yPhi**2) * Chi1**2
-    term2 = term2_num / (12 + 51 * yPhi**2)**3 / term2_den
-    
-    term3_num = 48 * yPhi**2 * Chi1 * (Chi1 + Chi2) + 12 * sqrt_term * (-4 * Chi1 + 4 * Chi2) + 2 * yPhi**4 * (-1092 + 1357 * Chi1**2 - 576 * Chi1 * Chi2 + 459 * Chi2**2) + (8 * yPhi**2 * sqrt_term * (5 * Chi1 - 3 * Chi2) * (yPhi**2 * (-4113 + 1880 * Chi1**2 - 765 * Chi1 * Chi2) - 18 * (27 + 13 * Lambda**2 - 14 * Chi1**2 + 6 * Chi1 * Chi2)))
-    term3_den = -9 * (4 + 17 * yPhi**2) * (35 * yPhi**2 + 4 * Lambda**2) + 2 * yPhi**2 * (60 + 391 * yPhi**2) * Chi1**2
-    term3 = term3_num / (12 + 51 * yPhi**2)**2 / term3_den
-    
-    term4_num = 24 * Chi1 * sqrt_term * (-((4 * yPhi**4 * (18 * (27 + 13 * Lambda**2 - 14 * Chi1**2 + 6 * Chi1 * Chi2) + yPhi**2 * (4113 - 1880 * Chi1**2 + 765 * Chi1 * Chi2))**2) / (9 * (9 * (4 + 17 * yPhi**2) * (35 * yPhi**2 + 4 * Lambda**2) - 2 * yPhi**2 * (60 + 391 * yPhi**2) * Chi1**2)**2)) + (-36 * yPhi**2 * (Chi1 - 3 * Chi2) * (Chi1 + Chi2) + 2 * yPhi**4 * (-2106 + 1357 * Chi1**2 - 576 * Chi1 * Chi2 + 459 * Chi2**2)) / (-27 * (4 + 17 * yPhi**2) * (35 * yPhi**2 + 4 * Lambda**2) + 6 * yPhi**2 * (60 + 391 * yPhi**2) * Chi1**2))
-    term4 = term4_num / (12 + 51 * yPhi**2)**2
-    
-    return term1 + term2 + term3 + term4
+    lamb = Lambda
+    sqrt = np.sqrt
+
+    return 1352*yPhi**4*(8*Chi1*sqrt(-2*Chi1**2*yPhi**4*(391*yPhi**2 + 60) + 9*yPhi**2*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4)) - 72*lamb + 17*yPhi**4*(23*Chi1**2 - 81) - 2*yPhi**2*(-14*Chi1**2 + 153*lamb + 9) + 72)/(27*(17*yPhi**2 + 4)**4) + 52*yPhi**2*(4*yPhi**4*(-1880*Chi1**2 + 765*Chi1*Chi2 + 2124) + 24*yPhi**2*(-22*Chi1**2 + 6*Chi1*Chi2 + 39*lamb + 3) + 4*sqrt(-2*Chi1**2*yPhi**4*(391*yPhi**2 + 60) + 9*yPhi**2*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4))*(432*lamb*(5*Chi1 - 3*Chi2) + yPhi**4*(Chi1*(-26770*Chi1**2 + 13158*Chi1*Chi2 + 113229) - 48195*Chi2) + 36*yPhi**2*(Chi1*(-106*Chi1**2 + 307*lamb + 633) - 9*Chi2*(-6*Chi1**2 + 17*lamb + 35)))/(2*Chi1**2*yPhi**2*(391*yPhi**2 + 60) - 9*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4)))/(3*(51*yPhi**2 + 12)**3) + (48*Chi1*yPhi**2*(Chi1 + Chi2) + 24*Chi1*sqrt(-2*Chi1**2*yPhi**4*(391*yPhi**2 + 60) + 9*yPhi**2*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4))*(-4*yPhi**4*(-252*Chi1**2 + 108*Chi1*Chi2 + 234*lamb + yPhi**2*(-1880*Chi1**2 + 765*Chi1*Chi2 + 4113) + 486)**2/(9*(-2*Chi1**2*yPhi**2*(391*yPhi**2 + 60) + 9*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4))**2) + (2*yPhi**4*(1357*Chi1**2 - 576*Chi1*Chi2 + 459*Chi2**2 - 2106) - 36*yPhi**2*(Chi1 - 3*Chi2)*(Chi1 + Chi2))/(6*Chi1**2*yPhi**2*(391*yPhi**2 + 60) - 27*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4))) + 2*yPhi**4*(1357*Chi1**2 - 576*Chi1*Chi2 + 459*Chi2**2 - 1092) + 8*yPhi**2*(5*Chi1 - 3*Chi2)*sqrt(-2*Chi1**2*yPhi**4*(391*yPhi**2 + 60) + 9*yPhi**2*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4))*(252*Chi1**2 - 108*Chi1*Chi2 - 234*lamb + yPhi**2*(1880*Chi1**2 - 765*Chi1*Chi2 - 4113) - 486)/(2*Chi1**2*yPhi**2*(391*yPhi**2 + 60) - 9*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4)) + 12*(-4*Chi1 + 4*Chi2)*sqrt(-2*Chi1**2*yPhi**4*(391*yPhi**2 + 60) + 9*yPhi**2*(4*lamb + 35*yPhi**2)*(17*yPhi**2 + 4)))/(3*(51*yPhi**2 + 12)**2)
 
 @njit
 def dpdt1PA_func(y0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, Chi1, Chi2):
