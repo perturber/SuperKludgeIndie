@@ -1,0 +1,18 @@
+#!/bin/bash
+#PBS -j oe
+#PBS -N fisherEMRI
+#PBS -l select=1:ncpus=50:mpiprocs=1:ompthreads=36:mem=250gb:ngpus=1
+#PBS -l walltime=30:00:00
+
+cd $PBS_O_WORKDIR;
+np=$(cat ${PBS_NODEFILE} | wc -l);
+
+image="/app1/common/singularity-img/hopper/cuda/cuda_12.1.0-cudnn8-devel-u20.04.sif"
+
+singularity exec -e $image bash << EOF > stdout.$PBS_JOBID 2> stderr.$PBS_JOBID
+
+source ~/.bashrc
+conda activate few_env
+python aefishergrid.py
+
+EOF

@@ -1,0 +1,1468 @@
+startup
+(100, 2) (100,)
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.38016881179275), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.38016881179275), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(1.1652261179669403), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  23.304522359338804 SNR_after:  20.0
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.382339187804275), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.382339187804275), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(1.2417560142905635), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  24.835120285811268 SNR_after:  19.999999999999986
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.384580075442761), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.384580075442761), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(1.3404140886594669), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  26.808281773189336 SNR_after:  20.000000000000007
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.386509911775525), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.386509911775525), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(1.4540152296290274), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  29.08030459258055 SNR_after:  20.0
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.387660257203493), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.387660257203493), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(1.5785440494087049), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  31.570880988174096 SNR_after:  19.999999999999996
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.387457147791602), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.387457147791602), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(1.7107297897622562), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  34.214595795245124 SNR_after:  19.999999999999996
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.38520071673343), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.38520071673343), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(1.8477658657732658), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  36.955317315465315 SNR_after:  20.0
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.380039583875824), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.380039583875824), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(1.9855145974002006), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  39.71029194800401 SNR_after:  20.0
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.370936625284298), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.370936625284298), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(2.122539871695993), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  42.45079743391986 SNR_after:  19.999999999999996
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.356621563823548), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.356621563823548), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(2.2553803996799555), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  45.10760799359911 SNR_after:  20.0
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.18193372507516), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.18193372507516), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(1.2756374188911754), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  25.51274837782351 SNR_after:  19.999999999999993
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.183136305846443), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.183136305846443), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(1.3555760833067603), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  27.111521666135204 SNR_after:  19.999999999999986
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.184141594096452), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.184141594096452), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(1.4580388485585325), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  29.160776971170648 SNR_after:  20.000000000000032
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.184580312344389), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.184580312344389), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(1.5761315913703595), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  31.52263182740719 SNR_after:  19.999999999999993
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.183992684454225), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.183992684454225), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(1.7056097141972502), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  34.112194283945 SNR_after:  20.0
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.18181121785673), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.18181121785673), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(1.843476863115669), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  36.86953726231338 SNR_after:  20.0
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.177341048535753), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.177341048535753), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(1.9857411734454231), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  39.71482346890846 SNR_after:  20.0
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.169734699317665), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.169734699317665), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(2.128900354322226), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  42.57800708644452 SNR_after:  19.999999999999996
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.157957966119525), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.157957966119525), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(2.2705416367863545), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  45.41083273572709 SNR_after:  19.999999999999975
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.140742370796904), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.140742370796904), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(2.4081884416873303), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  48.1637688337466 SNR_after:  19.99999999999999
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.983341136691225), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.983341136691225), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(1.3984240937960857), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  27.968481875921714 SNR_after:  19.999999999999993
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.983654470287572), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.983654470287572), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(1.4811726296469288), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  29.623452592938577 SNR_after:  19.999999999999996
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.9835167903182), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.9835167903182), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(1.5874427835380316), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  31.748855670760634 SNR_after:  19.99999999999998
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.982568307012619), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.982568307012619), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(1.7098369423674487), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  34.196738847348975 SNR_after:  19.999999999999964
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.9803555717238), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.9803555717238), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(1.8441439093812861), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  36.88287818762572 SNR_after:  20.00000000000001
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.976315456046727), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.976315456046727), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(1.9873153799360233), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  39.74630759872046 SNR_after:  19.999999999999986
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.969756093788432), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.969756093788432), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(2.134457412984022), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  42.68914825968044 SNR_after:  20.000000000000007
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.959831929573795), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.959831929573795), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(2.2822830808355765), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  45.64566161671153 SNR_after:  20.000000000000014
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.94550967347363), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.94550967347363), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(2.4295699085557847), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  48.59139817111569 SNR_after:  19.99999999999999
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.925520591502337), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.925520591502337), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(2.572293969534557), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  51.44587939069114 SNR_after:  19.99999999999998
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.784243939379486), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.784243939379486), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(1.5353098429358982), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  30.706196858717966 SNR_after:  20.00000000000006
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.78374312883934), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.78374312883934), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(1.6205575893371638), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  32.411151786743275 SNR_after:  19.999999999999986
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.782551897581195), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.782551897581195), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(1.7302728110715708), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  34.60545622143142 SNR_after:  20.000000000000036
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.780317590144165), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.780317590144165), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(1.8567342572685905), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  37.13468514537181 SNR_after:  20.000000000000114
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.776591169791358), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.776591169791358), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(1.9956246305284135), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  39.91249261056827 SNR_after:  19.999999999999964
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.770812173678003), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.770812173678003), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(2.1434429368018852), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  42.8688587360377 SNR_after:  20.000000000000007
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.762290122075079), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.762290122075079), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(2.2955839147105537), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  45.91167829421107 SNR_after:  19.999999999999993
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.750179772884067), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.750179772884067), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(2.448204754742339), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  48.964095094846776 SNR_after:  20.0
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.733447084510779), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.733447084510779), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(2.599543825572838), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  51.990876511456754 SNR_after:  19.999999999999996
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.710821300915475), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.710821300915475), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(2.7458390990505515), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  54.91678198101103 SNR_after:  19.999999999999996
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.584433355803645), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.584433355803645), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(1.6884261154568585), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  33.76852230913717 SNR_after:  20.0
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.583189184824189), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.583189184824189), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(1.7767572523135016), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  35.53514504627003 SNR_after:  19.99999999999949
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.581029427447449), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.581029427447449), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(1.8885226535021022), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  37.770453070042045 SNR_after:  20.0
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.577606655624203), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.577606655624203), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(2.018639099954907), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  40.37278199909814 SNR_after:  20.0
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.572474764665733), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.572474764665733), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(2.1616583722816936), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  43.23316744563387 SNR_after:  19.999999999999993
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.565074688510137), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.565074688510137), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(2.3136511147013747), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  46.27302229402749 SNR_after:  20.000000000000007
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.55471615859475), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.55471615859475), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(2.4703209867111444), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  49.40641973422289 SNR_after:  19.999999999999986
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.54055307756567), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.54055307756567), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(2.627387069692948), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  52.54774139385896 SNR_after:  19.99999999999995
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.521549422069661), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.521549422069661), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(2.782774830150556), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  55.65549660301112 SNR_after:  20.000000000000068
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.49643106553934), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.49643106553934), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(2.9326175359837063), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  58.652350719674125 SNR_after:  19.999999999999872
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.38360229680717), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.38360229680717), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(1.8604248374385084), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  37.208496748770166 SNR_after:  19.999999999999993
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.38168034946758), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.38168034946758), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(1.9504665711346703), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  39.00933142269341 SNR_after:  20.000000000000004
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.378631497864966), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.378631497864966), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(2.064601514783511), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  41.29203029567022 SNR_after:  20.000000000000057
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.374112074157445), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.374112074157445), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(2.197702722302629), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  43.954054446052574 SNR_after:  19.999999999999982
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.367677847976974), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.367677847976974), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(2.344239821010972), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  46.884796420219445 SNR_after:  19.999999999999954
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.358770320857355), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.358770320857355), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(2.500157555852339), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  50.003151117046784 SNR_after:  19.999999999999986
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.346698716393181), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.346698716393181), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(2.660700480232926), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  53.21400960465852 SNR_after:  20.000000000000103
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.330615394506355), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.330615394506355), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(2.8216200298474416), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  56.43240059694883 SNR_after:  20.000000000000135
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.30948162645454), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.30948162645454), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(2.980756801275756), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  59.61513602551512 SNR_after:  20.0
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.28201909341986), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.28201909341986), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(3.133971052822811), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  62.67942105645621 SNR_after:  20.00000000000005
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.181275190720443), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.181275190720443), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(2.0548048166618185), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  41.09609633323637 SNR_after:  20.000000000000014
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.178735019612198), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.178735019612198), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(2.1459667110938576), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  42.91933422187715 SNR_after:  20.000000000000068
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.174869764979018), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.174869764979018), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(2.2620742962370852), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  45.2414859247417 SNR_after:  19.999999999999915
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.169338461306145), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.169338461306145), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(2.3971432342748598), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  47.9428646854972 SNR_after:  20.000000000000046
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.16169810536065), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.16169810536065), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(2.54636188520405), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  50.927237704081 SNR_after:  20.0
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.151390358155549), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.151390358155549), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(2.705502482306321), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  54.11004964612643 SNR_after:  19.99999999999998
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.13772367151814), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.13772367151814), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(2.8702813312529476), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  57.40562662505895 SNR_after:  20.000000000000785
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.119848670407332), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.119848670407332), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(3.0336764013594557), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  60.673528027189114 SNR_after:  19.999999999999975
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.096723741915385), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.096723741915385), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(3.196329865604201), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  63.92659731208403 SNR_after:  20.00000000000012
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.06706615383785), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.06706615383785), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(3.352172988115683), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  67.04345976231366 SNR_after:  20.000000000000043
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.976656976205843), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.976656976205843), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(2.2763256291728737), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  45.526512583457475 SNR_after:  19.999999999999996
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.973551416667119), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.973551416667119), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(2.367884190695448), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  47.35768381390896 SNR_after:  19.999999999999993
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.968934742939023), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.968934742939023), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(2.4848069196163984), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  49.69613839232797 SNR_after:  19.999999999999975
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.962468022301039), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.962468022301039), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(2.6212532532365556), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  52.42506506473111 SNR_after:  19.99999999999992
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.953709209329416), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.953709209329416), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(2.772379544849403), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  55.44759089698805 SNR_after:  19.99999999999995
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.942100116538334), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.942100116538334), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(2.9337683641305996), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  58.675367282611994 SNR_after:  19.999999999999968
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.926948595933236), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.926948595933236), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(3.100429223071516), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  62.00858446143032 SNR_after:  19.999999999999996
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.907403833660126), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.907403833660126), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(3.2670490960399077), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  65.34098192079816 SNR_after:  20.0
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.882421708942601), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.882421708942601), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(3.4329816207107733), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  68.65963241421547 SNR_after:  20.00000000000011
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.850715493760138), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.850715493760138), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(3.5903771168604512), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  71.80754233720903 SNR_after:  20.000000000000004
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.768244526086916), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.768244526086916), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(2.5326582276833975), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  50.65316455366795 SNR_after:  20.000000000000064
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.764619359906519), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.764619359906519), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(2.6237594732517686), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  52.47518946503537 SNR_after:  20.000000000000046
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.759308060685102), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.759308060685102), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(2.7404619786242117), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  54.80923957248423 SNR_after:  20.000000000000004
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.751973427484348), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.751973427484348), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(2.8771126216808693), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  57.542252433617385 SNR_after:  19.999999999999993
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.742174466940329), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.742174466940329), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(3.028991756295687), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  60.57983512591374 SNR_after:  20.000000000000043
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.729353522103146), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.729353522103146), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(3.1916342077031263), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  63.83268415406253 SNR_after:  19.999999999999993
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.712818446881583), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.712818446881583), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(3.3599678886033253), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  67.1993577720665 SNR_after:  20.0
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.6917177754364), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.6917177754364), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(3.528290076972964), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  70.56580153945929 SNR_after:  20.0
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.665005827296524), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.665005827296524), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(3.6949646375195306), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  73.89929275039061 SNR_after:  19.999999999999986
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.631392973826177), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.631392973826177), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(3.8554825755817035), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  77.10965151163407 SNR_after:  19.99999999999998
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.552450356217168), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.552450356217168), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(2.8388375242363244), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  56.77675048472649 SNR_after:  20.000000000000036
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.548345075371937), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.548345075371937), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(2.928095120252255), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  58.5619024050451 SNR_after:  19.99999999999997
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.542388829121768), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.542388829121768), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(3.043307938734134), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  60.86615877468268 SNR_after:  20.00000000000001
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.534246248145893), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.534246248145893), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(3.17875786913423), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  63.5751573826846 SNR_after:  20.000000000000046
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.523477906244626), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.523477906244626), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(3.3299046760872413), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  66.59809352174483 SNR_after:  19.999999999999996
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.50952751938235), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.50952751938235), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(3.4924594461847107), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  69.84918892369421 SNR_after:  19.999999999999805
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.491704075340774), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.491704075340774), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(3.6598152724713757), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  73.19630544942751 SNR_after:  20.000000000000078
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.469156863728953), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.469156863728953), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(3.830019260521913), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  76.60038521043826 SNR_after:  20.000000000000053
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.440840330119356), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.440840330119356), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(3.997438406443205), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  79.9487681288641 SNR_after:  19.999999999999993
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.405463931117065), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': 1.0, 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.405463931117065), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(4.158667833102291), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+SNR before:  83.17335666204582 SNR_after:  20.00000000000004
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.38016881179275), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(1.1652261179669403), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.0
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 453.0834939479828 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 71.71528768539429 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.382339187804275), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(1.2417560142905635), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999986
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 491.455575466156 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 74.80445146560669 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.384580075442761), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(1.3404140886594669), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000007
+calculating stable deltas...
+Time taken to compute stable deltas is 518.9342765808105 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 77.12866187095642 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.386509911775525), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(1.4540152296290274), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.0
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 557.8673257827759 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 80.35015630722046 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.387660257203493), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(1.5785440494087049), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999996
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 588.4987852573395 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 82.99641585350037 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.387457147791602), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(1.7107297897622562), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999996
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 615.5896234512329 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 85.15626549720764 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.38520071673343), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(1.8477658657732658), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.0
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 651.8224556446075 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 88.09978222846985 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.380039583875824), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(1.9855145974002006), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.0
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 693.3130922317505 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 91.51000213623047 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.370936625284298), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(2.122539871695993), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999996
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 736.6106684207916 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 95.20108461380005 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.1), 'p0': np.float64(11.356621563823548), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(2.2553803996799555), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.0
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 793.4798085689545 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 99.83403873443604 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.18193372507516), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(1.2756374188911754), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999993
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 453.06771779060364 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 71.6361882686615 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.183136305846443), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(1.3555760833067603), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999986
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 490.2986340522766 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 74.76736760139465 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.184141594096452), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(1.4580388485585325), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000032
+calculating stable deltas...
+Time taken to compute stable deltas is 504.10355257987976 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 75.8870370388031 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.184580312344389), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(1.5761315913703595), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999993
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 536.7687001228333 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 78.59848666191101 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.183992684454225), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(1.7056097141972502), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.0
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 574.1164627075195 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 81.73423624038696 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.18181121785673), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(1.843476863115669), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.0
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 607.6534473896027 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 84.51360511779785 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.177341048535753), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(1.9857411734454231), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.0
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 649.4827206134796 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 87.9078779220581 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.169734699317665), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(2.128900354322226), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999996
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 684.8247718811035 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 90.93470001220703 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.157957966119525), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(2.2705416367863545), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999975
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 733.4888792037964 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 94.98378252983093 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.18888888888888888), 'p0': np.float64(11.140742370796904), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(2.4081884416873303), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.99999999999999
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 780.7213985919952 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 99.05414724349976 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.983341136691225), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(1.3984240937960857), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999993
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 446.68697690963745 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 71.0856409072876 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.983654470287572), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(1.4811726296469288), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999996
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 484.6017761230469 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 74.27703762054443 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.9835167903182), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(1.5874427835380316), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.99999999999998
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 513.701628446579 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 76.76040029525757 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.982568307012619), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(1.7098369423674487), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999964
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 523.7777962684631 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 77.5452868938446 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.9803555717238), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(1.8441439093812861), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.00000000000001
+calculating stable deltas...
+Time taken to compute stable deltas is 558.1826937198639 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 80.42591643333435 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.976315456046727), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(1.9873153799360233), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999986
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 584.9087738990784 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 82.7131998538971 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.969756093788432), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(2.134457412984022), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000007
+calculating stable deltas...
+Time taken to compute stable deltas is 630.2922315597534 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 86.43595314025879 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.959831929573795), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(2.2822830808355765), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000014
+calculating stable deltas...
+Time taken to compute stable deltas is 672.9345166683197 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 89.87449431419373 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.94550967347363), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(2.4295699085557847), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.99999999999999
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 721.8799011707306 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 94.05846524238586 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.2777777777777778), 'p0': np.float64(10.925520591502337), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(2.572293969534557), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.99999999999998
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 775.7415387630463 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 98.47369194030762 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.784243939379486), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(1.5353098429358982), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.00000000000006
+calculating stable deltas...
+Time taken to compute stable deltas is 441.76486802101135 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 70.75121784210205 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.78374312883934), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(1.6205575893371638), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999986
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 485.5171420574188 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 74.37001037597656 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.782551897581195), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(1.7302728110715708), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000036
+calculating stable deltas...
+Time taken to compute stable deltas is 519.050323009491 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 77.14448308944702 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.780317590144165), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(1.8567342572685905), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000114
+calculating stable deltas...
+Time taken to compute stable deltas is 509.70748376846313 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 76.41084241867065 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.776591169791358), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(1.9956246305284135), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999964
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 545.7210290431976 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 79.3464457988739 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.770812173678003), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(2.1434429368018852), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000007
+calculating stable deltas...
+Time taken to compute stable deltas is 583.2416014671326 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 82.48383903503418 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.762290122075079), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(2.2955839147105537), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999993
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 618.4525384902954 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 85.46453785896301 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.750179772884067), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(2.448204754742339), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.0
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 667.3650205135345 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 89.41627550125122 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.733447084510779), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(2.599543825572838), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999996
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 704.2900762557983 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 92.52033972740173 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.3666666666666667), 'p0': np.float64(10.710821300915475), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(2.7458390990505515), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999996
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 767.7452685832977 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 97.7467610836029 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.584433355803645), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(1.6884261154568585), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.0
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 435.2134733200073 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 70.11731147766113 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.583189184824189), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(1.7767572523135016), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.99999999999949
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 479.3680076599121 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 73.83666896820068 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.581029427447449), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(1.8885226535021022), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.0
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 516.7815070152283 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 76.98330473899841 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.577606655624203), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(2.018639099954907), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.0
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 545.0592863559723 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 79.29630517959595 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.572474764665733), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(2.1616583722816936), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999993
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 527.7425835132599 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 77.93029284477234 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.565074688510137), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(2.3136511147013747), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000007
+calculating stable deltas...
+Time taken to compute stable deltas is 567.7045962810516 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 81.23937749862671 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.55471615859475), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(2.4703209867111444), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999986
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 608.3510918617249 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 84.63667678833008 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.54055307756567), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(2.627387069692948), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.99999999999995
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 647.9568123817444 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 87.87704920768738 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.521549422069661), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(2.782774830150556), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000068
+calculating stable deltas...
+Time taken to compute stable deltas is 684.4623711109161 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 90.88419198989868 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.4555555555555556), 'p0': np.float64(10.49643106553934), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(2.9326175359837063), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999872
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 750.4381291866302 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 96.39411211013794 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.38360229680717), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(1.8604248374385084), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999993
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 435.13218784332275 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 70.17587447166443 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.38168034946758), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(1.9504665711346703), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000004
+calculating stable deltas...
+Time taken to compute stable deltas is 476.48444175720215 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 73.6351363658905 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.378631497864966), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(2.064601514783511), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000057
+calculating stable deltas...
+Time taken to compute stable deltas is 520.3313901424408 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 77.31424355506897 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.374112074157445), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(2.197702722302629), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999982
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 552.8752224445343 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 79.89981842041016 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.367677847976974), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(2.344239821010972), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999954
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 579.4271845817566 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 82.19040989875793 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.358770320857355), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(2.500157555852339), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999986
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 568.8691644668579 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 81.33244323730469 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.346698716393181), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(2.660700480232926), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000103
+calculating stable deltas...
+Time taken to compute stable deltas is 583.2568924427032 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 82.4844331741333 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.330615394506355), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(2.8216200298474416), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000135
+calculating stable deltas...
+Time taken to compute stable deltas is 624.7852041721344 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 86.14955401420593 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.30948162645454), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(2.980756801275756), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.0
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 663.4251868724823 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 89.10518765449524 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.5444444444444445), 'p0': np.float64(10.28201909341986), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(3.133971052822811), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.00000000000005
+calculating stable deltas...
+Time taken to compute stable deltas is 724.3960554599762 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 94.30548787117004 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.181275190720443), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(2.0548048166618185), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000014
+calculating stable deltas...
+Time taken to compute stable deltas is 427.74215936660767 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 69.59488129615784 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.178735019612198), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(2.1459667110938576), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000068
+calculating stable deltas...
+Time taken to compute stable deltas is 471.21709656715393 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 73.1354877948761 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.174869764979018), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(2.2620742962370852), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999915
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 509.4674301147461 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 76.33181619644165 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.169338461306145), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(2.3971432342748598), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000046
+calculating stable deltas...
+Time taken to compute stable deltas is 541.5230848789215 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 78.92707657814026 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.16169810536065), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(2.54636188520405), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.0
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 575.7623689174652 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 81.82651257514954 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.151390358155549), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(2.705502482306321), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.99999999999998
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 620.3127071857452 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 85.58495926856995 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.13772367151814), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(2.8702813312529476), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000785
+calculating stable deltas...
+Time taken to compute stable deltas is 640.3947319984436 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 87.37885904312134 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.119848670407332), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(3.0336764013594557), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999975
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 644.0994191169739 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 87.5507299900055 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.096723741915385), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(3.196329865604201), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.00000000000012
+calculating stable deltas...
+Time taken to compute stable deltas is 628.6415030956268 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 86.21742916107178 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.6333333333333333), 'p0': np.float64(10.06706615383785), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(3.352172988115683), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000043
+calculating stable deltas...
+Time taken to compute stable deltas is 658.597101688385 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 88.64290118217468 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.976656976205843), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(2.2763256291728737), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999996
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 417.87490344047546 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 68.67005777359009 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.973551416667119), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(2.367884190695448), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999993
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 460.81096172332764 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 72.52627420425415 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.968934742939023), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(2.4848069196163984), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999975
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 498.30592346191406 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 75.3752670288086 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.962468022301039), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(2.6212532532365556), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.99999999999992
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 535.1847553253174 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 78.43201041221619 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.953709209329416), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(2.772379544849403), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.99999999999995
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 569.7907021045685 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 81.37804818153381 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.942100116538334), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(2.9337683641305996), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999968
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 614.2646853923798 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 85.30737590789795 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.926948595933236), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(3.100429223071516), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999996
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 655.9718396663666 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 88.59541511535645 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.907403833660126), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(3.2670490960399077), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.0
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 663.5418915748596 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 89.24124264717102 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.882421708942601), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(3.4329816207107733), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.00000000000011
+calculating stable deltas...
+Time taken to compute stable deltas is 608.6117029190063 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 84.61076784133911 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.7222222222222222), 'p0': np.float64(9.850715493760138), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(3.5903771168604512), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000004
+calculating stable deltas...
+Time taken to compute stable deltas is 661.430379152298 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 88.909015417099 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.768244526086916), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(2.5326582276833975), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000064
+calculating stable deltas...
+Time taken to compute stable deltas is 426.57287311553955 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 69.63734245300293 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.764619359906519), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(2.6237594732517686), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000046
+calculating stable deltas...
+Time taken to compute stable deltas is 466.944815158844 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 72.78665375709534 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.759308060685102), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(2.7404619786242117), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000004
+calculating stable deltas...
+Time taken to compute stable deltas is 482.5670042037964 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 74.18449282646179 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.751973427484348), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(2.8771126216808693), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999993
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 507.2680974006653 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 76.2123453617096 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.742174466940329), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(3.028991756295687), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000043
+calculating stable deltas...
+Time taken to compute stable deltas is 531.6715304851532 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 78.20838522911072 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.729353522103146), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(3.1916342077031263), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999993
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 563.0577919483185 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 80.84198570251465 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.712818446881583), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(3.3599678886033253), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.0
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 585.5778379440308 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 82.80335521697998 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.6917177754364), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(3.528290076972964), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.0
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 552.5266151428223 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 79.85933756828308 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.665005827296524), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(3.6949646375195306), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999986
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 600.9307508468628 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 83.97218370437622 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.8111111111111111), 'p0': np.float64(9.631392973826177), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(3.8554825755817035), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.99999999999998
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 648.0322690010071 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 87.89579558372498 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.552450356217168), 'e0': np.float64(0.1), 'Y0': 1.0, 'dist': np.float64(2.8388375242363244), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000036
+calculating stable deltas...
+Time taken to compute stable deltas is 419.6751296520233 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 68.89718437194824 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.548345075371937), 'e0': np.float64(0.14444444444444446), 'Y0': 1.0, 'dist': np.float64(2.928095120252255), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.99999999999997
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 464.37917709350586 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 72.65074062347412 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.542388829121768), 'e0': np.float64(0.18888888888888888), 'Y0': 1.0, 'dist': np.float64(3.043307938734134), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.00000000000001
+calculating stable deltas...
+Time taken to compute stable deltas is 498.60039162635803 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is not positive-definite. Try lowering inspiral error tolerance or increasing the derivative order.
+Time taken to compute FM is 75.46644139289856 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.534246248145893), 'e0': np.float64(0.23333333333333334), 'Y0': 1.0, 'dist': np.float64(3.17875786913423), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000046
+calculating stable deltas...
+Time taken to compute stable deltas is 513.6520907878876 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 76.64519166946411 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.523477906244626), 'e0': np.float64(0.2777777777777778), 'Y0': 1.0, 'dist': np.float64(3.3299046760872413), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999996
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 529.5824208259583 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 77.97910737991333 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.50952751938235), 'e0': np.float64(0.32222222222222224), 'Y0': 1.0, 'dist': np.float64(3.4924594461847107), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999805
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 560.4808464050293 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 80.62704730033875 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.491704075340774), 'e0': np.float64(0.3666666666666667), 'Y0': 1.0, 'dist': np.float64(3.6598152724713757), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000078
+calculating stable deltas...
+Time taken to compute stable deltas is 495.3756513595581 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 75.2364068031311 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.469156863728953), 'e0': np.float64(0.4111111111111111), 'Y0': 1.0, 'dist': np.float64(3.830019260521913), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.000000000000053
+calculating stable deltas...
+Time taken to compute stable deltas is 527.5569314956665 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 77.80748414993286 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.440840330119356), 'e0': np.float64(0.4555555555555556), 'Y0': 1.0, 'dist': np.float64(3.997438406443205), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 19.999999999999993
+The optimal source SNR is <= 20. The Fisher approximation may not be valid!
+calculating stable deltas...
+Time taken to compute stable deltas is 571.5127694606781 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 81.42133688926697 seconds
+wave ndim:  2
+Computing SNR for parameters: {'m1': 1000000.0, 'm2': 10.0, 'a': np.float64(0.9), 'p0': np.float64(9.405463931117065), 'e0': np.float64(0.5), 'Y0': 1.0, 'dist': np.float64(4.158667833102291), 'qS': 1.0471975511965976, 'phiS': 0.7853981633974483, 'qK': 0.6283185307179586, 'phiK': 0.5235987755982988, 'Phi_phi0': 0.1, 'Phi_theta0': 0.2, 'Phi_r0': 0.3, 'chi2': 0.5, '1PA': True, 'evolve_primary': False, '2PA': True}
+Waveform Generated. SNR: 20.00000000000004
+calculating stable deltas...
+Time taken to compute stable deltas is 623.8458578586578 seconds
+calculating Fisher matrix...
+Finished derivatives
+Calculated Fisher is *atleast* positive-definite.
+Time taken to compute FM is 85.7876365184784 seconds
