@@ -757,7 +757,7 @@ class SuperKludgeFlux(KerrEccEqFlux):
         Lambda = 3. * (Omega_phi)**(2/3) * (Omega_phi/Omega_r - 1.)**(-1.)
 
         #PN parameters in terms of yPhi and Lambda
-        yy0, y1, y2 = (y0_func(yPhi, Lambda), 
+        yy0, y1, y2 = (y0_func(yPhi, Lambda, a_at_t), 
                       y1_func(yPhi, Lambda, a_at_t, self.chi2), 
                       y2_func(yPhi, Lambda, a_at_t, self.chi2))
 
