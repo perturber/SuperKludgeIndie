@@ -763,10 +763,10 @@ class SuperKludgeFlux(KerrEccEqFlux):
             edot1PAval = self.massratio * edot1PA(a_at_t, p, e, self.chi2)
             edot += edot1PAval
 
-            Omega_phi_1PAval = OmegaPhi1PA(a_at_t, p, e, self.chi2)
+            Omega_phi_1PAval = self.massratio * OmegaPhi1PA(a_at_t, p, e, self.chi2)
             Omega_phi += Omega_phi_1PAval
 
-            Omega_r_1PAval = Omegar1PA(a_at_t, p, e, self.chi2)
+            Omega_r_1PAval = self.massratio * Omegar1PA(a_at_t, p, e, self.chi2)
             Omega_r += Omega_r_1PAval
 
         if self.evolve_2PA:
@@ -778,10 +778,10 @@ class SuperKludgeFlux(KerrEccEqFlux):
             edot2PAval = self.massratio**2 * edot2PA(a_at_t, p, e, self.chi2)
             edot += edot2PAval
 
-            Omega_phi_2PAval = self.massratio * OmegaPhi2PA(a_at_t, p, e, self.chi2)
+            Omega_phi_2PAval = self.massratio**2 * OmegaPhi2PA(a_at_t, p, e, self.chi2)
             Omega_phi += Omega_phi_2PAval
 
-            Omega_r_2PAval = self.massratio * Omegar2PA(a_at_t, p, e, self.chi2)
+            Omega_r_2PAval = self.massratio**2 * Omegar2PA(a_at_t, p, e, self.chi2)
             Omega_r += Omega_r_2PAval
             
         ydot[0] = pdot #pdot
