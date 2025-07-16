@@ -27,8 +27,7 @@ import numpy as np
 from math import pow, log
 import warnings
 
-from .SuperKludge02_support import (y0_func, y1_func, y2_func, es0_func, es1_func, es2_func, dpdt1PA_func, dedt1PA_func, dpdt2PA_func, dedt2PA_func, dEdtH1PA, dLdtH1PA) #direct flux calculations
-from .SuperKludge02_support import (dpdE, dpdL, dedE, dedL, dEdChi1, dLdChi1, dEdm1, dLdm1) #Jacobian calculations
+from .SKequatorialfluxes import (pdot1PA, pdot2PA, edot1PA, edot2PA, OmegaPhi1PA, OmegaPhi2PA, Omegar1PA, Omegar2PA)
 
 PMAX = PMAX_REGIONB
 PISCO_MIN = get_separatrix(AMAX, 0, 1)
@@ -631,6 +630,8 @@ class KerrEccEqFlux(ODEBase):
 class SuperKludgeFlux(KerrEccEqFlux):
     """
     SuperKludgeFlux as a modification of the Kerr eccentric equatorial flux ODE.
+    Based on transformed gauge such that eccentric -> circular limit now works well.
+
     Additional parameters (in this order):
         chi2 (float) : dimensionless spin of the secondary.
         evolve_1PA (bool) : whether to include 1PA corrections.
@@ -659,7 +660,7 @@ class SuperKludgeFlux(KerrEccEqFlux):
         try:
             self.evolve_primary = bool(additional_args[2]) #whether to evolve \delta~M, \delta~a. If False, just set delta_m1, delta_a = 0.0 throughout evolution.
             if self.evolve_primary:
-                warnings.warn("Flux at horizon for primary evolution are PN-approximated and may be unsuitable.")
+                warnings.warn("Flux at horizon for primary evolution are PN-approximated and may be incorrect in the strong field.")
         except IndexError:
             self.evolve_primary = False #do not include primary evolution.
 
@@ -713,9 +714,6 @@ class SuperKludgeFlux(KerrEccEqFlux):
         pdot, edot, _, Omega_phi, Omega_theta, Omega_r = ydot[:6]
         p, e = y[:2]
 
-        #if e < self.massratio: #invalid regime for the SuperKludge
-        #    raise TrajectoryOffGridException
-
         delta_m1 = y[-2]
         delta_a = y[-1]
         delta_m1_dot = ydot[-2]
@@ -726,7 +724,10 @@ class SuperKludgeFlux(KerrEccEqFlux):
 
         #evolution of MBH mass and spin
         if self.evolve_primary:
+
+            return NotImplementedError
             
+            """
             #we will have Edot, Ldot at horizon as a function of p, e, x.
             #these are PN approximations at 1PA.
             EdotH = self.m1 * self.massratio * dEdtH1PA(p, e, 1.0, a_at_t) #Energy flux at horizon, 1PA contribution, scaled by the MBH mass.
@@ -751,40 +752,42 @@ class SuperKludgeFlux(KerrEccEqFlux):
 
             edot += ((dedE(a_at_t, p, e, 1.0)*dEdChi1(a_at_t, p, e, 1.0) + dedL(a_at_t, p, e, 1.0)*dLdChi1(a_at_t, p, e, 1.0))*delta_a_dot +
                     (dedE(a_at_t, p, e, 1.0)*dEdm1(a_at_t, p, e, 1.0, M_at_t) + dedL(a_at_t, p, e, 1.0)*dLdm1(a_at_t, p, e, 1.0, M_at_t))*delta_m1_dot)
+            """
             
-        #calculating yPhi and Lambda for the PN-approximate PA contributions to pdot, edot
-        yPhi = Omega_phi**(1/3)
-        Lambda = 3. * (Omega_phi)**(2/3) * (Omega_phi/Omega_r - 1.)**(-1.)
-
-        #PN parameters in terms of yPhi and Lambda
-        yy0, y1, y2 = (y0_func(yPhi, Lambda, a_at_t), 
-                      y1_func(yPhi, Lambda, a_at_t, self.chi2), 
-                      y2_func(yPhi, Lambda, a_at_t, self.chi2))
-
-        es0, es1, es2 = (es0_func(yPhi, Lambda, a_at_t),
-                         es1_func(yPhi, Lambda, a_at_t, self.chi2),
-                         es2_func(yPhi, Lambda, a_at_t, self.chi2))     
-
         if self.evolve_1PA:
 
             #adding 1PA corrections:
-            pdot1PA = self.massratio * dpdt1PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
-            pdot = pdot + pdot1PA
+            pdot1PAval = self.massratio * pdot1PA(a_at_t, p, e, self.chi2)
+            pdot += pdot1PAval
 
-            edot1PA = self.massratio * dedt1PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
-            edot = edot + edot1PA
+            edot1PAval = self.massratio * edot1PA(a_at_t, p, e, self.chi2)
+            edot += edot1PAval
+
+            Omega_phi_1PAval = OmegaPhi1PA(a_at_t, p, e, self.chi2)
+            Omega_phi += Omega_phi_1PAval
+
+            Omega_r_1PAval = Omegar1PA(a_at_t, p, e, self.chi2)
+            Omega_r += Omega_r_1PAval
 
         if self.evolve_2PA:
 
             #adding 2PA corrections:
-            pdot2PA = self.massratio**2 * dpdt2PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
-            pdot = pdot + pdot2PA
+            pdot2PAval = self.massratio**2 * pdot2PA(a_at_t, p, e, self.chi2)
+            pdot += pdot2PAval
             
-            edot2PA = self.massratio**2 * dedt2PA_func(yy0, y1, y2, es0, es1, es2, yPhi, Lambda, p, e, a_at_t, self.chi2)
-            edot = edot + edot2PA
+            edot2PAval = self.massratio**2 * edot2PA(a_at_t, p, e, self.chi2)
+            edot += edot2PAval
+
+            Omega_phi_2PAval = self.massratio * OmegaPhi2PA(a_at_t, p, e, self.chi2)
+            Omega_phi += Omega_phi_2PAval
+
+            Omega_r_2PAval = self.massratio * Omegar2PA(a_at_t, p, e, self.chi2)
+            Omega_r += Omega_r_2PAval
             
-        ydot[0] = pdot 
-        ydot[1] = edot
+        ydot[0] = pdot #pdot
+        ydot[1] = edot #edot
+        ydot[3] = Omega_phi #Omega_phi
+        ydot[5] = Omega_r #Omega_r
 
     def __call__(
         self,

@@ -661,13 +661,8 @@ class Integrate:
                 p_sep = 6 + 2 * e
 
             ### SUPERKLUDGE MOD STARTS HERE ###
-            if type(self.func).__name__ == 'SuperKludgeFlux': #stackoverflow method:
-                #SUPERKLUDGE ! 
-                if (p - p_sep < self.separatrix_buffer_dist) or (self.massratio/e > 0.1): #SUPERKLUDGE MOD: conservative stopping criteria based on e: 1PA and 2PA terms have a singularity at e = 0.0. 
-                    return True
-            else:
-                if (p - p_sep < self.separatrix_buffer_dist):
-                    return True
+            if (p - p_sep < self.separatrix_buffer_dist):
+                return True
             ### SUPERKLUDGE MOD ENDS ###
 
     def inner_func_forward(self, t_step):
@@ -758,43 +753,36 @@ class Integrate:
         ###########################################
         ###### SUPERKLUDGE MOD STARTS #############
 
-        try:    
-            # the trajectory crosses the boundary before t=tmax. Root-find to get the crossing time.
-            result = brentq(
-                distance_func,
-                t * self.Msec,  # lower bound: the current point
-                self.integrator_t_cache[
-                    -1
-                ],  # upper bound: the knot that passed the boundary
-                maxiter=MAX_ITER,
-                xtol=INNER_THRESHOLD,
-                rtol=1e-13,
-                full_output=True,
-            )
+        # the trajectory crosses the boundary before t=tmax. Root-find to get the crossing time.
+        result = brentq(
+            distance_func,
+            t * self.Msec,  # lower bound: the current point
+            self.integrator_t_cache[
+                -1
+            ],  # upper bound: the knot that passed the boundary
+            maxiter=MAX_ITER,
+            xtol=INNER_THRESHOLD,
+            rtol=1e-13,
+            full_output=True,
+        )
 
-            if result[1].converged:
-                t_out = result[0]
-                y_out = self.eval_integrator_spline(
-                    np.array(
-                        [
-                            t_out,
-                        ]
-                    )
-                )[0]
-
-                self.traj_step -= 1  # revert the step counter to place the last (t, y) in the right place (spline info not overwritten)
-                self.save_point(t_out, y_out, spline_output=None)
-            else:
-                raise RuntimeError(
-                    "Separatrix root-finding operation did not converge within MAX_ITER."
+        if result[1].converged:
+            t_out = result[0]
+            y_out = self.eval_integrator_spline(
+                np.array(
+                    [
+                        t_out,
+                    ]
                 )
-        except ValueError:
-        #    print("Exception occured while placing a point at the separatrix: ", e)
-            p, e, x = self.get_pex(y)
-            if e > 0.005: 
-                #simply end the inspiral
-                self.traj_step -= 1
+            )[0]
 
+            self.traj_step -= 1  # revert the step counter to place the last (t, y) in the right place (spline info not overwritten)
+            self.save_point(t_out, y_out, spline_output=None)
+        else:
+            raise RuntimeError(
+                "Separatrix root-finding operation did not converge within MAX_ITER."
+            )
+        
         ###### SUPERKLUDGE MOD ENDS #############
         ###########################################
 
