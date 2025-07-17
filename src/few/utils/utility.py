@@ -431,7 +431,6 @@ def get_p_at_t(
     root = get_at_t(traj_module, traj_args, bounds, t_out, index_of_p, **kwargs)
     return root
 
-
 def get_m2_at_t(
     traj_module: object,
     t_out: float,

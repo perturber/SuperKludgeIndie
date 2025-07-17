@@ -660,10 +660,8 @@ class Integrate:
             else:
                 p_sep = 6 + 2 * e
 
-            ### SUPERKLUDGE MOD STARTS HERE ###
             if (p - p_sep < self.separatrix_buffer_dist):
                 return True
-            ### SUPERKLUDGE MOD ENDS ###
 
     def inner_func_forward(self, t_step):
         """
@@ -717,11 +715,11 @@ class Integrate:
         if (
             t < self.tmax_dimensionless
         ):  # don't step to the separatrix if we already hit the time window
-            self._finishing_function_stop(t, y) #SUPERKLUDGE MOD
+            self._finishing_function_stop(t)
         else:
             self._finishing_function_at_tmax()
 
-    def _finishing_function_stop(self, t: float, y: np.ndarray): #SUPERKLUDGE MOD
+    def _finishing_function_stop(self, t: float):
         """
         If the integrator stops due to the separatrix stopping condition, place a point at the inner
         boundary and finish integration.
@@ -749,9 +747,6 @@ class Integrate:
                 )
                 # exit the finishing function
                 return
-
-        ###########################################
-        ###### SUPERKLUDGE MOD STARTS #############
 
         # the trajectory crosses the boundary before t=tmax. Root-find to get the crossing time.
         result = brentq(
@@ -782,9 +777,6 @@ class Integrate:
             raise RuntimeError(
                 "Separatrix root-finding operation did not converge within MAX_ITER."
             )
-        
-        ###### SUPERKLUDGE MOD ENDS #############
-        ###########################################
 
     def _finishing_function_at_tmax(self):
         """

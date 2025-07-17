@@ -645,7 +645,7 @@ class SuperKludgeFlux(KerrEccEqFlux):
 
         #this is where we initialize additional args like chi2, massratio, flags for 1PA, 2PA, and primary evolution.
         #expected order: addiational_args = [chi2, 1PA_flag, evolve_primary_flag, 2PA_flag]
-        
+                
         self.massratio = m1 * m2 / (m1 + m2) ** 2
         self.m1 = m1
         
@@ -719,7 +719,7 @@ class SuperKludgeFlux(KerrEccEqFlux):
         delta_m1_dot = ydot[-2]
         delta_a_dot = ydot[-2]
         
-        M_at_t = self.m1 + delta_m1 #this is how delta_m1 is defined TODO: Confirm scaling!!!
+        M_at_t = self.m1 + delta_m1 #this is how delta_m1 is defined
         a_at_t = self.a + delta_a #this is how delta_a is defined
 
         #evolution of MBH mass and spin
@@ -757,13 +757,13 @@ class SuperKludgeFlux(KerrEccEqFlux):
         if self.evolve_1PA:
 
             #adding 1PA corrections:
-            pdot1PAval = self.massratio * pdot1PA(a_at_t, p, e, self.chi2)
+            pdot1PAval = self.massratio * pdot1PA(a_at_t, p, e, self.chi2) #adiabatic pdot, edot are scaled by the massratio. So we lose one factor of massratio here.
             pdot += pdot1PAval
 
             edot1PAval = self.massratio * edot1PA(a_at_t, p, e, self.chi2)
             edot += edot1PAval
 
-            Omega_phi_1PAval = self.massratio * OmegaPhi1PA(a_at_t, p, e, self.chi2)
+            Omega_phi_1PAval = self.massratio * OmegaPhi1PA(a_at_t, p, e, self.chi2) #adiabatic Omega_phi, Omega_r NOT scaled by the massratio. So we keep the factor of massratio here.
             Omega_phi += Omega_phi_1PAval
 
             Omega_r_1PAval = self.massratio * Omegar1PA(a_at_t, p, e, self.chi2)
@@ -783,7 +783,7 @@ class SuperKludgeFlux(KerrEccEqFlux):
 
             Omega_r_2PAval = self.massratio**2 * Omegar2PA(a_at_t, p, e, self.chi2)
             Omega_r += Omega_r_2PAval
-            
+        
         ydot[0] = pdot #pdot
         ydot[1] = edot #edot
         ydot[3] = Omega_phi #Omega_phi
