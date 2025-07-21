@@ -643,7 +643,7 @@ class SuperKludgeFlux(KerrEccEqFlux):
 
         #print("additional args: ", additional_args)
 
-        #this is where we initialize additional args like chi2, massratio, flags for 1PA, 2PA, and primary evolution.
+        #this is where we initialize additional args like chi2, massratio, flags for 1PA, 2PA, primary evolution.
         #expected order: addiational_args = [chi2, 1PA_flag, evolve_primary_flag, 2PA_flag]
                 
         self.massratio = m1 * m2 / (m1 + m2) ** 2
@@ -675,6 +675,10 @@ class SuperKludgeFlux(KerrEccEqFlux):
             self.num_add_args = 0
         else:
             self.num_add_args = len(additional_args)
+
+    @property
+    def separatrix_buffer_dist(self):
+        return 0.05 #large-ish buffer for final p to separatrix so that the trajectories are stable.
 
     @property
     def nparams(self):
