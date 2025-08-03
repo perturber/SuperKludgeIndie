@@ -10,6 +10,7 @@ from .waveform import (
     FastSchwarzschildEccentricFluxBicubic,
     SlowSchwarzschildEccentricFlux,
     Pn5AAKWaveform,
+    SuperKludgeWaveform,
 )
 
 __all__ = [
@@ -19,4 +20,5 @@ __all__ = [
     "FastSchwarzschildEccentricFluxBicubic",
     "SlowSchwarzschildEccentricFlux",
     "Pn5AAKWaveform",
+    "SuperKludgeWaveform",
 ]
