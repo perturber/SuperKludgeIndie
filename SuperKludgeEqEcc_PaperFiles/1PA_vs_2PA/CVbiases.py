@@ -42,7 +42,7 @@ if not use_gpu:
     cfg_set = few.get_config_setter(reset=True)
     
     cfg_set.enable_backends("cpu")
-    cfg_set.set_log_level("info");
+    cfg_set.set_log_level("info")
 else:
     pass #let the backend decide for itself.
 
@@ -324,13 +324,12 @@ def cutlervallis(waveform_truth, waveform_approx, Fisher_truth, partial_approx, 
 evolve_1PA = True
 evolve_primary = False
 evolve_2PA = False #for approximate model
-add_args_alt = [chi2, evolve_1PA, evolve_primary, evolve_2PA]
 
 filename_bias = os.path.join(filename,"1PA") #this is where the 1PA approximate Fishers will be stored.
 
 param_names = ['m1','m2','a','chi2','p0','e0','dist','qS','phiS','qK','phiK','Phi_phi0','Phi_r0']
 
-add_param_args = {'chi2':chi2,
+add_param_args_alt = {'chi2':chi2,
               '1PA':evolve_1PA,
               'evolve_primary':evolve_primary,
               '2PA':evolve_2PA} #dict of parameters NOT included by default in SEF. This contains the additional SK parameters. 
@@ -347,7 +346,7 @@ sef_kwargs = {'EMRI_waveform_gen':waveform_response, #EMRI waveform model with T
           'noise_model':get_sensitivity,
           'channels':channels,
           'noise_kwargs':noise_kwargs,
-          'add_param_args':add_args_alt,
+          'add_param_args':add_param_args_alt,
           'plunge_check':False, #save time by avoiding internal check for plunging trajectories (this is ensured by our choice of p0)
           }
     
